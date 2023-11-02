@@ -952,13 +952,14 @@ header{
     }
 
     .work_line{
-        position: absolute;
+        /* position: absolute;
         top: 0;
-        left: 15%;
+        left: 15%; */
+        display: none;
     }
     
     .work_card{
-        width: calc(80% - 24px);
+        width: calc(100% - 24px);
         margin-bottom: 20px;
     }
     
@@ -966,11 +967,11 @@ header{
 
 
     .work_card_row:nth-child(odd) > ::before{
-        transform: translate(-300%,-50%);
+        transform: translate(-50%,-50%);
         left: 0px;
     }
     .work_card_row:nth-child(even) > ::before{
-        transform: translate(-300%,-50%);
+        transform: translate(-50%,-50%);
         left: 0px;
     }
 
@@ -989,8 +990,8 @@ header{
         margin-right: 30px;
     }
     .life-card{
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 60px;
+        margin-right: 60px;
     }
     .life_img {
         height: 50vh;
