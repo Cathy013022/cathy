@@ -831,7 +831,7 @@ header{
 
 
 
-@media (max-width:768px) {
+@media (max-width:1024px) {
     .navbar .icon{
         width: 40px;
         height: 40px;
@@ -857,7 +857,7 @@ header{
             width: 200px;
             height: 250px;
             top: 50%;
-            transform: translate(65%,-50%);
+            transform: translate(70%,-50%);
             
         }
     }
@@ -870,7 +870,7 @@ header{
         width: 50px;
         height: 50px;
         border-radius: 50%;
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .about_img{
@@ -879,27 +879,25 @@ header{
         
     }
     .about_text{
-        font-size: 21px;
+        font-size: 25px;
     }
     .life-card{
         margin-bottom: 40px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     
-    .life_img {
-        height: 25vh;
+    /* .life_img {
+        height: 50vh;
        
-    }
+    } */
     .life .flower{
         width: 100px;
         top: 4%;
         right: -2%;
     }
 }
-
-
-@media (max-width:320px) {
+@media (max-width:500px) {
     .bg{
         animation: show 0.0s 0s;
     }
@@ -925,7 +923,7 @@ header{
         width: 150px;
         height: 150px;
         border-radius: 50%;
-        left: 7%;
+        left: 23%;
         margin-bottom: 20px;
     }
     .eyecatch_title{
@@ -940,7 +938,7 @@ header{
         
         width:250px;
         height:250px;
-        margin-left:10%;
+        left: 53%;
     }
     .about_text{
         margin-top: 20px;
@@ -962,13 +960,13 @@ header{
     
     
     .work_card_row:nth-child(odd) > ::before{
-        transform: translate(-200%,-50%);
-        left: -24px;
+        transform: translate(-300%,-50%);
+        left: -25px;
         
     }
     .work_card_row:nth-child(even) > ::before{
-        transform: translate(-200%,-50%);
-        left: -24px;
+        transform: translate(-300%,-50%);
+        left: -25px;
         
     }
     /* 奇數 */
@@ -984,16 +982,19 @@ header{
         margin-right: 30px;
     }
     .life-card{
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 100px;
+        margin-right: 100px;
     }
     .life_img {
-        height: 35vh;
+        height: 50vh;
        
     }
     .life .flower{
         width: 80px;
         top: 1%;
-        right: 2%;
+        right: 5%;
     }
 }
+
+
+
