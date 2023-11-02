@@ -923,7 +923,9 @@ header{
         width: 150px;
         height: 150px;
         border-radius: 50%;
-        left: 23%;
+        /* left: 23%; */
+        left: 50%;
+        transform: translateX(-50%);
         margin-bottom: 20px;
     }
     .eyecatch_title{
@@ -938,7 +940,9 @@ header{
         
         width:250px;
         height:250px;
-        left: 53%;
+        margin-left:0%;
+        left: 50%;
+        transform: translateX(-50%);
     }
     .about_text{
         margin-top: 20px;
@@ -950,7 +954,7 @@ header{
     .work_line{
         position: absolute;
         top: 0;
-        left: 10%;
+        left: 15%;
     }
     
     .work_card{
@@ -959,16 +963,19 @@ header{
     }
     
     
+
+
     .work_card_row:nth-child(odd) > ::before{
         transform: translate(-300%,-50%);
-        left: -25px;
-        
+        left: 0px;
     }
     .work_card_row:nth-child(even) > ::before{
         transform: translate(-300%,-50%);
-        left: -25px;
-        
+        left: 0px;
     }
+
+
+
     /* 奇數 */
     .work_card_row:nth-child(odd){
         display: flex;
@@ -982,8 +989,8 @@ header{
         margin-right: 30px;
     }
     .life-card{
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     .life_img {
         height: 50vh;
