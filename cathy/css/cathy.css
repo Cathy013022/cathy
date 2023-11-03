@@ -359,10 +359,10 @@ html,body{
     border-radius: 5px;
 }
 .pic{
-    width: 150px;
-    height: 200px;
+    width: 170px;
+    height: 220px;
     border: 10px solid #fff;
-    border-bottom: 20px solid #fff;
+    border-bottom: 30px solid #fff;
     background-color: #ccc;
     border-radius: 5px;
     position: absolute;
@@ -407,8 +407,8 @@ html,body{
         
     }
     100%{
-        width: 150px;
-        height: 200px;
+        width: 170px;
+        height: 220px;
         top: 50%;
         transform: translate(-50%,-50%) rotateX(360deg);
         z-index: 1;
@@ -416,17 +416,17 @@ html,body{
 }
 @keyframes picmove{
     0%{
-        width: 150px;
-        height: 200px;
+        width: 170px;
+        height: 220px;
         top: 50%;
         transform: translate(-50%,-50%);
 
     }
     100%{
-        width: 200px;
-        height: 250px;
+        width: 270px;
+        height: 360px;
         top: 50%;
-        transform: translate(190%,-50%);
+        transform: translate(140%,-50%);
         
     }
 }
@@ -736,7 +736,7 @@ header{
     
 }
 
-.life .col-2:after {
+.life .col-lg-2:after {
 	position: absolute;
 	top: 0.22rem;
 	left: 50%;
@@ -757,7 +757,7 @@ header{
     width: 150px;
     position: absolute;
     top: 8%;
-    right: -4.5%;
+    right: -2%;
     transform: rotate(8deg);
 } 
 
@@ -931,6 +931,7 @@ header{
     .eyecatch_title{
         width: 60%;
         margin-top: 70px;
+        text-align: center;
         position: absolute;
         top: 50%;
         left: 55%;
@@ -952,9 +953,7 @@ header{
     }
 
     .work_line{
-        /* position: absolute;
-        top: 0;
-        left: 15%; */
+        
         display: none;
     }
     
@@ -990,11 +989,11 @@ header{
         margin-right: 30px;
     }
     .life-card{
-        margin-left: 60px;
-        margin-right: 60px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
     .life_img {
-        height: 50vh;
+        height: 40vh;
        
     }
     .life .flower{
